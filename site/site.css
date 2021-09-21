@@ -1,0 +1,85 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0px;
+}
+
+.img-fundo img{
+    height: 97.27vh;
+    width: 1349px;
+}
+
+
+.info{
+    margin-top: -350px;
+    margin-left: 100px;
+    width: 36%;
+    
+}
+
+.texto {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 36px;
+    display: inline;
+    flex-direction: column;
+    
+}
+
+.logo{
+    margin-right: 250px;
+}
+
+.cabecalho{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+
+     padding: 20px 70px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-right: 450px;
+  }
+
+.menu-item{
+    font: 16px 'Bebas Neue', cursive;
+    margin: 0px 20px 0px 20px;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  a, a:link, a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+
+    
+  .menu-botao button {
+    color: #23272A;
+    background-color: white;
+    
+    border: none;
+    border-radius: 30px;
+    
+    padding: 10px 15px;
+    font: 14px Whitney-200;
+  
+    outline: none;
+  }
+
+  .menu-botao button {
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .menu-botao button:hover {
+    color: #7289da;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+  }
+  
