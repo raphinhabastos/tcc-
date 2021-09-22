@@ -149,6 +149,14 @@ a:visited {
 .box-cartao{
   display: flex;
   flex-direction: row; 
+  
+  
+}
+.box-cartao img{
+  margin-top: 80px;
+  margin-left: 10px;
+  
+  
 }
 
 
@@ -163,10 +171,12 @@ a:visited {
 .fale{
   font: 23px "Bebas Neue", cursive;
   letter-spacing: 1.5px;
+  margin-top: -90px;
+  
 }
 
 .email{
-  font: 16px 'Coda', cursive;;
+  font: 16px 'Coda', cursive;
 }
 
 .redes{
