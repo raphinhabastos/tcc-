@@ -29,6 +29,11 @@ body {
   margin-right: 250px;
 }
 
+.logo:hover{
+  color: #ffffff;
+  box-shadow: 0 25px 15px rgb(0 0 0 / 50%);
+}
+
 .cabecalho {
   display: flex;
   flex-direction: row;
@@ -41,7 +46,7 @@ body {
 .menu {
   display: flex;
   flex-direction: row;
-  margin-right: 450px;
+  margin-right: 50vh;
 }
 
 .menu-item {
@@ -73,7 +78,7 @@ a:visited {
 }
 
 .menu-botao button {
-  transition: 0.3s;
+  transition: 0.4s;
   cursor: pointer;
 }
 .menu-botao button:hover {
@@ -89,3 +94,46 @@ a:visited {
   margin-top: 180px;
   margin-left: 180px;
 }
+
+
+.faixa-2 {
+  margin-top: 250px;
+  
+}
+
+
+
+.box-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 0px;
+  margin-top: 70px;
+}
+
+
+.camisa, .calcas, .calcados
+{
+        opacity:3;
+        cursor: pointer;
+}
+.camisa:hover, .calcas:hover, .calcados:hover
+{
+        opacity:0.6;
+        cursor: pointer;
+}
+
+
+
+
+
+.descricao{
+  text-align: center;
+
+}
+
+.categorias{
+  font: 34px "Bebas Neue", cursive;
+  text-align: center;
+}
+
