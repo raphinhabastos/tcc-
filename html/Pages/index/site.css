@@ -12,7 +12,7 @@ body {
   justify-content: center;
   padding: 0em 5em;
 
-  background-image: url("./public/images/fundo.png");
+  background-image: url("../../public/images/fundo.png");
   background-repeat: no-repeat;
   background-size: 100% 90%;
   height: 50em;

@@ -1,0 +1,96 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+    padding: .5em;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20em;
+  }
+  
+  .menu-item {
+    font: 16px "Bebas Neue";
+  }
+  
+  .menu-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .logo:hover {
+    color: #ffffff;
+    box-shadow: 0 25px 15px rgb(0 0 0 / 50%);
+  }
+
+  a,
+  a:link,
+  a:visited {
+  text-decoration: none;
+  color: black;
+  }
+
+  .menu-botao button {
+    color: #23272a;
+    background-color: white;
+  
+    border: none;
+    border-radius: 30px;
+  
+    padding: 10px 15px;
+  
+    outline: none;
+  }
+  
+  .menu-botao button {
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  .menu-botao button:hover {
+    color: #7289da;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+  }
+
+  .faixa-1 {
+    padding: 2em 5em;
+  }
+  .f1-perfil {
+    font: 2em "Bebas Neue";
+    text-align: center;
+    padding: 1em;
+  }
+
+  .f1-img {
+    height: 100%;
+  }
+
+  .f1-conteudo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .f1text {
+      max-width: 33em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  .f1textoo {
+      margin-bottom: 1em;
+      text-align: center;
+      font: 1.8em "Oswald";
+  }
+  .f1textoo2 {
+    text-align: center;
+    font: 1.8em "Oswald";
+    font-weight: 500;
+}
