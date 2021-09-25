@@ -28,6 +28,8 @@ body {
 
 .logo:hover {
   cursor: pointer;
+  transition: 0.4s;
+  border-radius: 30px;
   color: #7289da;
   box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
 }
@@ -74,12 +76,11 @@ a:visited {
   padding: 10px 15px;
 
   outline: none;
-}
 
-.menu-botao button {
   transition: 0.4s;
   cursor: pointer;
 }
+
 .menu-botao button:hover {
   color: #7289da;
   box-shadow: 0 8px 15px rgb(0 0 0 / 20%);

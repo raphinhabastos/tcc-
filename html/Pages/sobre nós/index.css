@@ -25,6 +25,8 @@
 
   .logo:hover {
       cursor: pointer;
+      border-radius: 30px;
+      transition: 0.4s;
       color: #7289da;
       box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
   }
