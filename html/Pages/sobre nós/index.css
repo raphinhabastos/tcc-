@@ -76,11 +76,11 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-evenly;
   }
 
   .f1text {
-      max-width: 33em;
+      max-width: 40em;
       display: flex;
       flex-direction: column;
   }
@@ -94,22 +94,67 @@
   .f1textoo2 {
     text-align: center;
     font: 1.8em "Oswald";
-    font-weight: 500;
   }
 
   .faixa-2 {
-    padding: 1em 5em 3em 5em;
+    padding: 3em 5em;;
   }
 
   .f2conteudo {
       display: flex;
       flex-direction: row;
       align-items: center;
-      padding: 2em;
+      justify-content: space-evenly;
   }
 
   .f2text {
     max-width: 30em;
     display: flex;
     flex-direction: column;
-}
+  }
+
+  .faixa-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 5em;
+  }
+
+  .f3-img {
+    height: 100%;
+  }
+
+  .f3conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .f3text {
+      text-align: center;
+      font: 1.8em "Oswald";
+      width: 40%;
+  }
+
+
+  .faixa-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 5em;
+  }
+
+  .f4conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .f4-img {
+    height: 100%;
+  }
+  .f4text {
+    text-align: center;
+    font: 1.8em "Oswald";
+    width: 40%;
+  }
