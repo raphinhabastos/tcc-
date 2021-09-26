@@ -1,0 +1,116 @@
+* { border: 0px solid green; }
+
+@font-face {
+  font-family: MuktaThin;
+  src: url('https://fonts.gstatic.com/s/mukta/v7/iJWHBXyXfDDVXbEOjGmd8WA.woff2');
+}
+
+@font-face {
+  font-family: Mukta;
+  src: url('https://fonts.gstatic.com/s/mukta/v7/iJWHBXyXfDDVXbFqj2md8WA.woff2');
+}
+
+@font-face {
+  font-family: MuktaBolderr;
+  src: url('https://fonts.gstatic.com/s/mukta/v7/iJWHBXyXfDDVXbF6iGmd8WA.woff2');
+}
+
+@font-face {
+  font-family: MuktaBold;
+  src: url('https://fonts.gstatic.com/s/mukta/v7/iJWKBXyXfDDVXbnBrXw.woff2');
+}
+
+@font-face {
+  font-family: MuktaBolder;
+  src: url('https://fonts.gstatic.com/s/mukta/v7/iJWHBXyXfDDVXbEeiWmd8WA.woff2');
+}
+
+.box {
+  width: 220px;
+  border: 1px solid lightgray;
+  padding: 30px 15px 10px 15px;
+  margin: 5px;
+}
+
+
+.capa {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.capa img {
+ width: 140px;
+}
+
+.livro {
+  font-family: MuktaBolder;
+  font-size: 16px;
+  
+  line-height: 18px;
+}
+
+.autor {
+  font-family: MuktaThin;
+  font-size: 14px;
+}
+
+.vendedor {
+  font-family: MuktaThin;
+  font-size: 11px;
+}
+
+.estrela {
+  height: 15px;
+   width: 75px;
+   opacity: 0.5;
+   
+   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zOnNlcmlmPSJodHRwOi8vd3d3LnNlcmlmLmNvbS8iIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDsiPjxwYXRoIGQ9Ik0xNDAuMjQ1LDE5LjI1NWwyNy44MzUsNjIuNDAybDY3Ljk4Miw3LjE4M2M2Ljc4OSwwLjcxMyAxMi4wMDQsNi41MDQgMTIuMDA0LDEzLjMzMWMwLDMuNzk4IC0xLjYxNCw3LjQyMiAtNC40MzYsOS45NjNsLTUwLjc1Niw0NS43NTNsMTQuMTA5LDY2Ljg0MWMwLjE5NSwwLjkxNiAwLjI5MywxLjg0OSAwLjI5MywyLjc4NmMwLDcuMzUzIC02LjA1MSwxMy40MDQgLTEzLjQwNCwxMy40MDRjLTIuMzU0LDAgLTQuNjY4LC0wLjYyMSAtNi43MDYsLTEuNzk4bC01OS4xNywtMzQuMTJsLTU5LjE5NiwzNC4xMzJjLTIuMDM5LDEuMTc5IC00LjM1NCwxLjggLTYuNzA5LDEuOGMtNy4zNTQsMCAtMTMuNDA0LC02LjA1IC0xMy40MDQsLTEzLjQwNGMwLC0wLjk0MSAwLjA5OSwtMS44OCAwLjI5NSwtMi44bDE0LjExLC02Ni44NDFsLTUwLjY5MiwtNDUuNzRjLTIuODIyLC0yLjU0MSAtNC40MzYsLTYuMTY1IC00LjQzNiwtOS45NjNjMCwtNi44MjcgNS4yMTUsLTEyLjYxOCAxMi4wMDQsLTEzLjMzMWw2Ny45ODIsLTcuMTgzbDI3LjgzNSwtNjIuNDAyYzIuMTU1LC00LjgxNCA2Ljk1OSwtNy45MjYgMTIuMjMzLC03LjkyNmM1LjI2OSwwIDEwLjA2OSwzLjEwNyAxMi4yMjcsNy45MTNaIiBzdHlsZT0iZmlsbDpub25lO3N0cm9rZTojMDAwO3N0cm9rZS13aWR0aDo3LjdweDsiLz48L3N2Zz4=) repeat-x 100%;
+}
+
+.preco-de {
+  font-family: Mukta;
+  font-size: 14px;
+  text-decoration: line-through;
+  
+  margin-bottom: -8px;
+}
+
+.preco-por {
+  font-family: MuktaBolder;
+  font-size: 18px;
+  
+  margin-bottom: -10px;
+}
+
+.pagamento {
+  font-family: MuktaThin;
+  font-size: 14px;
+}
+
+.saiba-mais {
+  margin-top: 30px;
+}
+
+.saiba-mais button {
+  font-family: arial;
+  font-size: 10px;
+  
+  background-color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 1px solid black;
+  
+  width: 220px;
+  height: 50px;
+}
+
+.saiba-mais button:hover {
+  background-color: #ffbc00;
+  border: 1px solid #ffbc00;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
