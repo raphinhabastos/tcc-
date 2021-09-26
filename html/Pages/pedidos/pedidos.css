@@ -28,6 +28,7 @@ option {
 .container-pedido {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .titulo-pagina {
@@ -43,7 +44,13 @@ option {
 .box-container-pedido {
     display: flex;
     flex-direction: row;
+}
+
+.conteudos-align {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .boxpedidogeral {
@@ -56,7 +63,7 @@ option {
     display: flex;
     flex-direction: row;
 
-    padding: 1em;
+    padding: 1em 2em;
     margin: 2em;
 
     border: 1px solid white;

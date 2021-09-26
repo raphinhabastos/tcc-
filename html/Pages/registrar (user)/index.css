@@ -49,7 +49,7 @@
   input {
     border: solid 1px black;
     width: 100%;
-    padding: .7em 0em;
+    padding: .7em 1em;
 
     font: 400 .8em "Oswald";
     outline: none
