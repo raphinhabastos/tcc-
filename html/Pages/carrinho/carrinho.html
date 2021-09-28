@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagamento</title>
+    <title>Carrinho</title>
     <link rel="stylesheet" href="carrinho.css"/>
     <link rel="stylesheet" href="../index/site.css"/>
 
@@ -48,18 +48,28 @@
                     <img src="../../public/images/camisa_corinthians.svg" />
                 </div>
                 <div class="textos">
-                    <div class="titulo-produto"></div>
-                    <div class="vendido-entregue-por"></div>
-                    <div class="cor"></div>
-                    <div class="tamanho"></div>
+                    <div class="titulo-produto">Camisa Corinthians II 21/22 s/n° Estádio Nike Masculina</div>
+                    <div class="vendido-entregue-por">Vendido e entregue por <span>Destiny</span></div>
+                    <div class="cor">Cor: <span>Preto+Branco</span></div>
+                    <div class="tamanho">Tamanho: <span>G</span></div>
                     <form>
-                        <input type="checkbox" name="presente" value="presente" checked> Para Presente
+                        <input type="checkbox" name="presente" value="presente"> Para Presente
                         </form>
                 </div>
                 
                 <div class="qtd-e-valor">
-                    <div class="quantidade"></div>
-                    <div class="valor"></div>
+                    <div class="quantidade">
+                        <div class="menos">
+                            <button>-</button>
+                        </div>
+                        <div class="qtd">
+                            <input type="number"></input>
+                        </div>
+                        <div class="mais">
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="valor">R$ 179,99</div>
                 </div>
             </div>
 
@@ -72,12 +82,15 @@
             </div>
 
             <div class="resumo-compra">
-                <div class="subtotal"></div>
+                <div class="subtotal">Subtotal(1 item)</div>
+                <div class="subtotal-valor">R$ 179,99</div>
                 <hr>
-                <div class="descontos"></div>
+                <div class="descontos">Descontos</div>
+                <div class="descontos-valor">R$ 0,00</div>
                 <hr>
-                <div class="total"></div>
-                <div class="parcelas-disponiveis"></div>
+                <div class="total">Total</div>
+                <div class="total-valor">R$ 179,99</div>
+                <div class="parcelas-disponiveis">Em até <span>4x</span> de <span>R$ 45,00</span> sem juros</div>
                 <div class="botoes">
                     <button class="finalizar">Finalizar Compra</button>
                     <button class="continuar">Continuar Comprando</button>
@@ -92,11 +105,11 @@
                     <div class="imagem">
                     <img src="../../public/images/shorts nike preto.svg" />
                     </div>
-                    <div class="titulo-sugeridos"></div>
-                    <div class="valor-sugeridos"></div>
+                    <div class="titulo-sugeridos">Bermuda Nike Monster Mesh 5.0 Masculina - Preto+Branco</div>
+                    <div class="valor-sugeridos">R$ 89,99</div>
 
-                    <label for="tamanho-roupas">Tamanho</label>
                     <select name="tamanhos-roupas" id="tamanhos-roupas">
+                    <option>Tamanho</option>
                     <option value="P">P</option>
                     <option value="M">M</option>
                     <option value="G">G</option>
@@ -110,11 +123,11 @@
                     <div class="imagem">
                     <img src="../../public/images/calça azul feminina.svg" />
                     </div>
-                    <div class="titulo-sugeridos"></div>
-                    <div class="valor-sugeridos"></div>
+                    <div class="titulo-sugeridos">Calça MLB New York Yankees New Era College Stripe Feminina - Marinho</div>
+                    <div class="valor-sugeridos">R$ 269,90</div>
 
-                    <label for="tamanho-roupas">Tamanho</label>
                     <select name="tamanhos-roupas" id="tamanhos-roupas">
+                    <option>Tamanho</option>
                     <option value="P">P</option>
                     <option value="M">M</option>
                     <option value="G">G</option>
@@ -128,11 +141,11 @@
                     <div class="imagem">
                     <img src="../../public/images/nike sb azul e lilás.svg" />
                     </div>
-                    <div class="titulo-sugeridos"></div>
-                    <div class="valor-sugeridos"></div>
+                    <div class="titulo-sugeridos">Tênis Nike SB Chron 2 - Lilás+Azul</div>
+                    <div class="valor-sugeridos">R$ 449,99</div>
 
-                    <label for="tamanho-calçados">Tamanho</label>
                     <select name="tamanhos-calçados" id="tamanhos-calçados">
+                    <option>Tamanho</option>
                     <option value="35">35</option>
                     <option value="36">36</option>
                     <option value="37">37</option>
@@ -151,11 +164,11 @@
                     <div class="imagem">
                     <img src="../../public/images/camisa real madrid.svg" />
                     </div>
-                    <div class="titulo-sugeridos"></div>
-                    <div class="valor-sugeridos"></div>
+                    <div class="titulo-sugeridos">Camisa Real Madrid Home 20/21 s/n° Torcedor Adidas Masculina - Branco</div>
+                    <div class="valor-sugeridos">R$ 159,99</div>
 
-                    <label for="tamanho-roupas">Tamanho</label>
                     <select name="tamanhos-roupas" id="tamanhos-roupas">
+                    <option>Tamanho</option>
                     <option value="P">P</option>
                     <option value="M">M</option>
                     <option value="G">G</option>
@@ -192,6 +205,5 @@
         </div>
       </body>
     </html>
-    
     </div>
     </body>
