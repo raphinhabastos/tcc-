@@ -16,7 +16,7 @@ export default function Index() {
                 <div class="masculino">Masculino</div>
                 <div class="img-masculino">
                     <div class="img-fut">
-                        <a href="https://www.youtube.com/watch?v=43si9s7ulU8">
+                        <a href=" ">
                         <img src="https://s3-alpha-sig.figma.com/img/0bfd/bc20/40c37a959547b943786e6da3754d8f96?Expires=1633910400&Signature=SrkEyzGaXLAtsDLnc6hPUSXBvL0t5Qbr0UrsRJKWumPiN7vcmzDnWAaVLzFJWFp6Tel9pGuN0-eVn9GezbgGvxJEl7L8K7gz5ltq9~8ftdO7hfLmOq4q4nnSJiBUZt-2wXbcRYxaP7Xm0dk341mZFpT-wxalykJ0zihANxJPQJXDqYGC2VrAKoGhFIYexVKVD7iuCJmacIHtFmM-DUgwChx2eIz1m-WFlyTZmvzuibGSo0ypsOKA4gXNQSPYO8H9UR9GxpS4nzmqeTLMm77iIhjwhXFZVjlhvt7z0PABbLjqIQeEghyfcgAAvHrwHXv9tlHhZ76JDZ~LIyWNwm3k6A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="" />
                         </a>
                     </div>
@@ -50,7 +50,7 @@ export default function Index() {
             <div class="geral-fut">
             <div class="fut">Futebol</div>
             <div class="img-fut">
-                <a href="https://www.youtube.com/watch?v=43si9s7ulU8">
+                <a href=" ">
                     <img src="https://s3-alpha-sig.figma.com/img/80d8/3b01/608e3ececc5f896294cd50188d4597ed?Expires=1633910400&Signature=Wh779mvkITr6EnMeNzgJNpnbXNsyBO1Z1S51JaDBs2eF~j~JoiVnY54T9ZXtGsU-OLbEqSzwk7CkusSv7bMSH5VcUHPymMMKu5pMzl3yd8ah5RSByvtBAKR-yd5Th35SrJFXMOFn2LJX13tnVtEHudBVJViw4c4Ww6Reraxxz1TjQoR3HdpEmjTahAGIgorMqGbvLWmW5hRcFN5owQORqH5O9Vxrp7cqKlVh7b~d7vctvcr3VAsaYbNPS~V2CM9r2liOUJT00S30ixHWYnLlFNIqcdu4BY92RjafeTd7zGTFsYcedds3dQ3i0ovqU8NdULfbQ85hQY-pWKb0cOXKkw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="" />
                 </a>
                 </div>
