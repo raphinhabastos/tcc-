@@ -137,8 +137,40 @@ margin-left: 150px;
   font-family: "Bebas Neue";
   font-size: 26px;
   background-color: white;
+}
+
+.geral-carrinho{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 
 }
+
+.adc-carrinho{
+  background-color: #5EC5FF;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  height: 40px;
+  width: 250px;
+}
+
+.favo{
+  background-color: cornsilk;
+  font-family: "Bebas Neue";
+  font-size: 26px;
+  height: 40px;
+  width: 250px;
+}
+
+.ava{
+  margin-top: 25px;
+  font-size: 19px;
+}
+
+.cora{
+  font-size: 35px;
+}
+
 
 
 
