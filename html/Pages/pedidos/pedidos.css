@@ -200,7 +200,11 @@ button {
 }
 
 .botao button:hover {
-    background-color: #5EC5FF;
-    opacity: 0.6;
+    cursor: pointer;
+  background-color: #577CF5;
+  color: #EEF2F2;
 }
 
+.pedido-imagem img {
+    height: 180px;
+}
