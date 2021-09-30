@@ -1,81 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-smenule=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="index.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUTOS</title>
+    <link rel="stylesheet" href="pedidos.css">
+    <link rel="stylesheet" href="../index/site.css">
     <link rel="icon" href="../../public/images/logosite.png" />
-    <title>Destiny Inc | Todos os produtos</title>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Coda&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
-      @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-    </style>
-  </head>
+        @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Coda&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+      </style>
+</head>
+<body>
 
-  <body>
+        <div class="container">
 
-    <div class="container">
-        <div class="cabecalho">
-            <div class="logo">
-              <img src="../../public/images/logo.png" alt="" width="100px" height="50px" />
+            <div class="cabecalho">
+                <div class="logo">
+                    <img src="../../public/images/logo.svg" alt="" width="100px" height="50px" />
+                 </div>
+                <div class="menu">
+                    <div class="menu-item"><a href=""> Lançamento</a></div>
+                    <div class="menu-item"><a href=""> Feminino</a></div>
+                    <div class="menu-item"><a href=""> Masculino</a></div>
+                    <div class="menu-item"><a href=""> Infantil</a></div>
+                </div>
+                <div class="menu-botao">
+                    <button><img src="../../public/images/carrinho.svg" alt="" /></button>
+                </div>
             </div>
-            <div class="menu">
-              <div class="menu-item"><a href=""> Lançamento</a></div>
-              <div class="menu-item"><a href=""> Feminino</a></div>
-              <div class="menu-item"><a href=""> Masculino</a></div>
-              <div class="menu-item"><a href=""> Infantil</a></div>
-            </div>
-        <div class="box">
-        <div class="capa"> <img src= /> </div>
-        <div class="livro">  </div>
-        <div class="autor">  </div>
-        <div class="estrela"> </div>
-        <div class="vendedor"> </div>
-        <div class="preco-de">  </div>
-        <div class="preço-por">  </div>
-        <div class="pagamento"> </div>
-        <div class="saiba-mais"> <button> </button> </div>
-       </div>
-       <div class="box">
-        <div class="capa"> <img src= /> </div>
-        <div class="livro">  </div>
-        <div class="autor">  </div>
-        <div class="estrela"> </div>
-        <div class="vendedor">  </div>
-        <div class="preco-de">  </div>
-        <div class="preço-por">  </div>
-        <div class="pagamento">  </div>
-        <div class="saiba-mais"> <button>  </button> </div>
-       </div>
-       
-       <div class="box">
-        <div class="capa"> <img src= /> </div>
-        <div class="livro">  </div>
-        <div class="autor"> </div>
-        <div class="estrela"> </div>
-        <div class="vendedor"> </div>
-        <div class="preco-de">  </div>
-        <div class="preço-por"> </div>
-        <div class="pagamento">  </div>
-        <div class="saiba-mais"> <button> </button> </div>
-       </div>
-       
-       <div class="box">
-        <div class="capa"> <img src= /> </div>
-        <div class="livro">  </div>
-        <div class="autor"> </div>
-        <div class="estrela"> </div>
-        <div class="vendedor"> </div>
-        <div class="preco-de">  </div>
-        <div class="preço-por"> </div>
-        <div class="pagamento">   </div>
-        <div class="saiba-mais"> <button>  </button> </div>
-        </div>
-       </div>
-       
-          </body>
-       </html>
+
+        <div class="titulo-pagina">TODOS OS PRODUTOS</div>
+
+        <div class="classificar">
+
+        <select id="classificar">
+          <option value="class1">Classificar por</option>
+          <option value="class1">Mais relevantes</option>
+          <option value="class2">Menor preço</option>
+          <option value="class3">Maior preço</option>
+        </select>
+    </div>
+
+        <div class="classificar">
+
+          <select id="classificar">
+              <option value="class1">Gênero</option>
+              <option value="class1">Feminino</option>
+              <option value="class2">Masculino</option>
+              <option value="class3">Lançamento</option>
+              <option value="class4">Infantil</option>
+          </select>
+      </div>
+
+    <div class="container-produto">
+      <div class="box">
+        <div class="prod"> <img src="https://s3-alpha-sig.figma.com/img/ad36/a38d/90e2adb9e2b0c393c29bf3804487c3e3?Expires=1633910400&Signature=dhs9FnGH10F7ASOOnfFVdMik8hS35E6ZeuH4gVev8NXJoKrmCsrsecfhbSUc3wox0PciPR2N~cjmAX6cVEKvxU29BD9YbSHLlBpLYC~l1PDzXBUbyv3s4Yd9uvTG~Qu1gZD02iDtz8IZY7UTQVwxjmpBJmblQFW8QVvFosf3LCAxSSpGYc7zthSW8lbT7lRafNzSBgdeuKjs9ZVFswOjcF6ffHg1bK~0zKZfnIDVBuYt-sGJ8BNoZjwA01ySoSnVelWLPHeiRmwe~YdTsPXxCcWnGBJRpnjEDBIT6M3snUi1n~Up4TebVmgN9tkgqFZadqbvgbLocdo3coTS5jAfDA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"/> </div>
+        <div class="nome-produto">CHUTEIRA NIKE MERCURIAL VAPOR 14 CLUB UNISSEX</div>
+        <div class="valor">R$ 379,99</div>
+        <div class="parcelamento">ou até 9x de R$ 42,2</div>
+        <div class="adc-carrinho"> <button> Adicionar ao carrinho </button> </div>
+      </div> 
+      <div class="box">
+        <div class="prod"> <img src="https://s3-alpha-sig.figma.com/img/7347/fc3b/7437ab8d12402ae88a7ccd3c1766eb9d?Expires=1633910400&Signature=frRtA1Y-btRCq2T25AF3ckyDV7U-qXzb5O3zTl92p7Umm1pyzZD6x4q7eee~JoBf3w~jbFfUzUT-I0TErlmKOxgyavYCMV9GwAetGNW9dnY~PEYFgdMNd6Pci99-0XnZlS7eu8hy9J4NubluYjWX9u9olBjPKG0G~u9m0mizI-SwOtMd7qsILs~pQcuBFTnLdR30k1hGJ-UGi5DUTuuFSg3I5UN6x1tkc~2cCtVKV~QgUnop~hkBtheLMklkDpUgK-fPNjqearAyk5IIlLRCkvezW0OH5JlCBhBWI9ZZyOYjOp6lkAaoTnU9S9V2HPeU5zMxm1IRq4jL07DuvkKMSQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"/> </div>
+        <div class="nome-produto">CHUTEIRA NIKE MERCURIAL VAPOR 14 CLUB UNISSEX</div>
+        <div class="valor">R$ 379,99</div>
+        <div class="parcelamento">ou até 9x de R$ 42,2</div>
+        <div class="adc-carrinho"> <button> Adicionar ao carrinho </button> </div>
+      </div> 
+      <div class="box">
+        <div class="prod"> <img src="https://s3-alpha-sig.figma.com/img/ceff/72ca/74f0583d4054618bafd7be364884f805?Expires=1633910400&Signature=Q-7usUXcUF~Fnb2s-bLqYhoRnxtURH2Okv2S4pZhgtmZnw22Y1dfpTCuZ14nrg~GQ3g7OiEbIdHjpbGmLmYqLuTflagl2Y016L5m5AnZ8sTPq0Kqobmn8SbSN8p9Kz5d9b3LEKuwrqeB5-eWtFwl3S1qs~-DBZMJ7IWO0Z3QDWhe3qa-9zOp6a3tCTbAOzBwOE3aal8pB8HXRV1yU90OrxIQiqZNh-egFYH21cd0d-qnuz1LNXLMFRGT8MD0d6rk6R-RGs~~zg3gB8pLAzVsjYN9Y78ly3oPT82GDcI8EbPnpfsYKOZ7~OPODvvWJ3~8nqe~Fx6zzYEyIgGSTeLR2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"/> </div>
+        <div class="nome-produto">Camiseta Nike Tottenham II 2021/22 Torcedor Masculina</div>
+        <div class="valor">R$ 299,99</div>
+        <div class="parcelamento">ou até 7x de R$ 42,85</div>
+        <div class="adc-carrinho"> <button> Adicionar ao carrinho </button> </div>
+      </div> 
+      <div class="box">
+        <div class="prod"> <img src="https://s3-alpha-sig.figma.com/img/64e7/abaa/015ec79a2c7bf12b186cb0b6b727a024?Expires=1633910400&Signature=ED~U2XulVwuKWjBdZfP6u-1x7G6GQse~f4h7lmGjqYbY2H~aVTVjeve9EKicV1XzZHyHWkYWqV5xoPEsfI3k1adT4jfE-2oSBUTEYNjhVZLoI-MxloP7ixWeu8JekXpLnWseoJBR8PFJ6OJTzLyzVz4~njTOkp3OKObkkLnGyKM26aeZPqBww~X1d~Xzjz-50ybIh6pC3Abmfq5baYTYcIhSpmmbS95Bo5izm8D9yQIdcPBaucW~s4fPvoJRJhWGDYhJSKKTQWODRc9dFw1vdNlRhUK83BKcnJZCpfIuCyGgEuG2ap-bpqdO1IHJXtOl9JDMssaIGdqzWmQWaDyMIA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"/> </div>
+        <div class="nome-produto">Blusão Nike SB Masculino</div>
+        <div class="valor">R$ 329,99</div>
+        <div class="parcelamento">ou até 8x de R$ 41,24</div>
+        <div class="adc-carrinho"> <button> Adicionar ao carrinho </button> </div>
+      </div> 
+    </div>
+</body>
