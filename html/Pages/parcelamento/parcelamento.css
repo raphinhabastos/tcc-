@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    height: 100vh;
 }
 
 * {
@@ -78,6 +79,26 @@ body {
 .box-container {
     display: flex;
     flex-direction: row;
+    align-content: center;
+    margin: 0.5em 4.5em;
+}
+
+.box-p-b, .a {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.a {
+    display: flex;
+    width: 38em;
+
+    align-items: flex-end;
+}
+
+.box-p-b button {
+    padding: 1em;
 }
 
 .container-parcelamento {
@@ -114,7 +135,7 @@ input {
 
     justify-items: center;
 
-    padding: 2em;
+    padding: 0em 2em;
     margin: 2em;
 
     border: 1px solid white;
@@ -162,8 +183,24 @@ input {
     flex-direction: column;
 }
 
-button {
-    align-items: flex-end;
+.botao button {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #5EC5FF;
+    font: 1.2em "Bebas Neue";
+
+    text-align: center;
+    padding: 0em 4em;
+    
+    border-radius: 5px;
+    border: none;
+
+    cursor: pointer;
+    transition-duration: 0.5s;
+    text-decoration: none;
+
+    align-content: flex-end;
 }
 
 .botao button {
