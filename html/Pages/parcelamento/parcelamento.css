@@ -83,7 +83,7 @@ body {
     margin: 0.5em 4.5em;
 }
 
-.box-p-b, .a {
+.box-p-b {
     display: flex;
     flex-direction: column;
 
@@ -92,10 +92,15 @@ body {
 
 .a {
     display: flex;
+    flex-direction: column;
+  
     width: 38em;
-
+  
+    justify-content: center;
     align-items: flex-end;
-}
+  
+    padding-top: 0.5em;
+  }
 
 .box-p-b button {
     padding: 1em;
