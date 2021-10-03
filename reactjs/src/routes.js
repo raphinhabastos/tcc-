@@ -7,8 +7,9 @@ import AddEndereco from './pages/endereço/adicionar-endereco';
 import Parcelamento from './pages/parcelamento';
 import Pagamento from './pages/pagamentos';
 import Desc from './pages/descricao-produto';
-import Feminino from './pages/feminino';
-import Infantil from './pages/infantil';
+import Feminino from './pages/produtos-femininos';
+import Infantil from './pages/produtos-infantis';
+import Masculinos from './pages/produtos-masculinos';
 
 export default function Final() {
     return (
@@ -21,8 +22,9 @@ export default function Final() {
             <Route path='/parcelamento' component={Parcelamento} />
             <Route path='/pagamento' component={Pagamento} />
             <Route path='/descricao-produto' component={Desc} />
-            <Route path='/feminino' component={Feminino}/>
-            <Route path='/infantil' component={Infantil}/>
+            <Route path='/produtos-femininos' component={Feminino}/>
+            <Route path='/produtos-infantis' component={Infantil}/>
+            <Route path='/produtos-masculinos' component={Masculinos}/>
         </Switch>
     </BrowserRouter>
     )
