@@ -5,6 +5,7 @@ import Login from './pages/login'
 import SobreNos from './pages/sobre nos'
 import AddEndereco from './pages/endereço/adicionar-endereco';
 import Parcelamento from './pages/parcelamento';
+import Pagamento from './pages/pagamentos';
 
 export default function Final() {
     return (
@@ -15,6 +16,7 @@ export default function Final() {
             <Route path='/sobre-nos' component={SobreNos} />
             <Route path='/add-endereco' component={AddEndereco} />
             <Route path='/parcelamento' component={Parcelamento} />
+            <Route path='/pagamento' component={Pagamento} />
         </Switch>
     </BrowserRouter>
     )
