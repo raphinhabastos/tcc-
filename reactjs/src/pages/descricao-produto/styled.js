@@ -2,83 +2,7 @@ import styled from "styled-components";
 
 
 const Container = styled.div `
-.cabecalho {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  
-    padding: .5em;
-    background-color: #f5f5f5;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0px;
-  }
-  
-  
-  .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 20em;
-  }
-  
-  .menu-item {
-    font: 16px "Bebas Neue";
-  }
 
-  .logo:hover {
-    cursor: pointer;
-    transition: 0.4s;
-    border-radius: 30px;
-    color: #7289da;
-    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
-  }
-  
-  .menu-item:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  a,
-  a:link,
-  a:visited {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .menu-botao button {
-    color: #23272a;
-    background-color: white;
-  
-    border: none;
-    border-radius: 30px;
-  
-    padding: 10px 15px;
-  
-    outline: none;
-  
-    transition: 0.4s;
-    cursor: pointer;
-  }
-  
-  .menu-botao button:hover {
-    color: #7289da;
-    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
-  }
-  
-  .box-img {
-    display: flex;
-    flex-direction: row;
-  
-    font: 2em "Bebas Neue";
-    padding-top: 2em;
-    justify-content: space-evenly;
-  }
 .geral-desc{
   display: flex;
   flex-direction: row;
@@ -99,7 +23,8 @@ margin-left: 150px;
 
 
 .nome-produto{
-  font-size: 32px;
+  font-size: 35px;
+  font-family: "Bebas Neue"
 }
 
 .cor{
@@ -119,7 +44,7 @@ margin-left: 150px;
 }
 
 .preco{
-  font-size: 35px;
+  font-size: 40px;
   color: #5EC5FF;
 }
 
@@ -127,6 +52,7 @@ margin-left: 150px;
 .tamanhos{
  margin-top: 20px;
  font-size: 32px;
+ font-family: "Bebas Neue"
 }
 
 .opcoes-tamanho button:hover{
@@ -183,5 +109,10 @@ margin-left: 150px;
 .cora{
   font-size: 35px;
 }
+
+
+
+
+
 `
 export {Container}

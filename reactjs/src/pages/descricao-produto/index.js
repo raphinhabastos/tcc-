@@ -3,8 +3,11 @@ import { Container } from './styled';
 
 
 export default function Desc() {
+    return(
     <Container>
         <Cabecalho/>
+        <div className="geral-desc">
+        <div class="img-produto"> <img src="assets/images/camisa-sp.jpg" alt=""/> </div>
         <div class="desc-text"> 
                     <div class="nome-produto"> Camisa São Paulo II 21/22 Rigoni Nº 77 </div>
                     <div class="cor">Vermelho, Branco e Preto</div>
@@ -27,10 +30,14 @@ export default function Desc() {
                             <div class="ava"> AVALIAÇÕES    <div class="cora">✰✰✰✰ </div></div>
                         </div>
                     </div>
+
+                    
                </div>
 
+        </div>
 
-    </Container>
+        </Container>
+    )
 
         
 }

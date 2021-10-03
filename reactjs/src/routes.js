@@ -7,6 +7,7 @@ import AddEndereco from './pages/endereço/adicionar-endereco';
 import Parcelamento from './pages/parcelamento';
 import Pagamento from './pages/pagamentos';
 import Desc from './pages/descricao-produto';
+import Feminino from './pages/feminino';
 
 export default function Final() {
     return (
@@ -19,6 +20,7 @@ export default function Final() {
             <Route path='/parcelamento' component={Parcelamento} />
             <Route path='/pagamento' component={Pagamento} />
             <Route path='/descricao-produto' component={Desc} />
+            <Route path='/feminino' component={Feminino}/>
         </Switch>
     </BrowserRouter>
     )
