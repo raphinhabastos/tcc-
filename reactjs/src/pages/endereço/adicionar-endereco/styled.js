@@ -95,8 +95,8 @@ input {
 
   justify-items: center;
 
-  padding: 2em;
-  margin: 0em 2em;
+  padding: 2.5em;
+  margin: 0em 0em 2em 0em;
 
   border: 1px solid white;
   border-radius: 5px;
@@ -120,7 +120,17 @@ input {
   font: 1.2em "Oswald";
 }
 
-.f-p span, .total span {
+.f-p span {
+  font: 1.2em "Bebas Neue";
+  padding-left: 3em;
+}
+
+.frete span {
+  padding-left: 8.5em;
+}
+
+.total span {
+  padding-left: 5em;
   font: 1.2em "Bebas Neue";
 }
 
