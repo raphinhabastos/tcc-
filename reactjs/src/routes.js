@@ -8,6 +8,7 @@ import Parcelamento from './pages/parcelamento';
 import Pagamento from './pages/pagamentos';
 import Desc from './pages/descricao-produto';
 import Feminino from './pages/feminino';
+import Infantil from './pages/infantil';
 
 export default function Final() {
     return (
@@ -21,6 +22,7 @@ export default function Final() {
             <Route path='/pagamento' component={Pagamento} />
             <Route path='/descricao-produto' component={Desc} />
             <Route path='/feminino' component={Feminino}/>
+            <Route path='/infantil' component={Infantil}/>
         </Switch>
     </BrowserRouter>
     )
