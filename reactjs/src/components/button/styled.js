@@ -12,6 +12,11 @@ const Button = styled.button`
 
     border: none;
     border-radius: 4px;
+
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+    
 `
 
 export {Button}
