@@ -9,7 +9,7 @@ export default function AddEndereco () {
 
                 <h1 className="titulo-pagina">ADICIONE UM ENDEREÇO</h1>
 
-                <div className="boxes"> 
+                <div className="boxe"> 
                 
 
                     <div className="box-cadastro">
