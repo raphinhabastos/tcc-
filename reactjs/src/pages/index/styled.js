@@ -5,6 +5,7 @@ const Container = styled.div `
     {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
         background-color: #F5F5F5;
+        
     }
 
     ::-webkit-scrollbar
@@ -25,6 +26,8 @@ const Container = styled.div `
         padding: 0em 5em;
 
         background-image: url(${logoFundo});
+        
+        
         background-repeat: no-repeat;
         background-size: 100% 100%;
         height: 55em;
