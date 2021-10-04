@@ -17,6 +17,8 @@ hr {
     width: 450%;
 }
 
+
+
 .hr2 {
     width:100%;
 }
@@ -30,6 +32,7 @@ hr {
 .titulo-pagina {
     font: 2.5em "Bebas Neue";
     padding: 0em 2em;
+    text-align: center;
 }
 
 .preco {
@@ -48,6 +51,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-content: center;
+    justify-content: center;
     margin: 0.5em 2em;
 }
 
