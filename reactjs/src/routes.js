@@ -11,6 +11,7 @@ import Feminino from './pages/produtos-femininos';
 import Infantil from './pages/produtos-infantis';
 import Masculinos from './pages/produtos-masculinos';
 import Lancamentos from './pages/lancamentos';
+import ProdutosTodos from './pages/produtos-todos';
 
 export default function Final() {
     return (
@@ -27,6 +28,7 @@ export default function Final() {
             <Route path='/produtos-infantis' component={Infantil}/>
             <Route path='/produtos-masculinos' component={Masculinos}/>
             <Route path='/lancamentos' component={Lancamentos}/>
+            <Route path='/produtos-todos' component={ProdutosTodos}/>
         </Switch>
     </BrowserRouter>
     )
