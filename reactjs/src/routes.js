@@ -10,6 +10,7 @@ import Desc from './pages/descricao-produto';
 import Feminino from './pages/produtos-femininos';
 import Infantil from './pages/produtos-infantis';
 import Masculinos from './pages/produtos-masculinos';
+import Lancamentos from './pages/lancamentos';
 
 export default function Final() {
     return (
@@ -25,6 +26,7 @@ export default function Final() {
             <Route path='/produtos-femininos' component={Feminino}/>
             <Route path='/produtos-infantis' component={Infantil}/>
             <Route path='/produtos-masculinos' component={Masculinos}/>
+            <Route path='/lancamentos' component={Lancamentos}/>
         </Switch>
     </BrowserRouter>
     )
