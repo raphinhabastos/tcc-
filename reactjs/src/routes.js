@@ -12,6 +12,8 @@ import Infantil from './pages/produtos-infantis';
 import Masculinos from './pages/produtos-masculinos';
 import Lancamentos from './pages/lancamentos';
 import ProdutosTodos from './pages/produtos-todos';
+import LoginAdm from './pages/login-adm';
+import Pedidos from './pages/pedidos';
 
 export default function Final() {
     return (
@@ -29,6 +31,8 @@ export default function Final() {
             <Route path='/produtos-masculinos' component={Masculinos}/>
             <Route path='/lancamentos' component={Lancamentos}/>
             <Route path='/produtos-todos' component={ProdutosTodos}/>
+            <Route path='/login-adm' component={LoginAdm}/>
+            <Route path='/pedidos' component={Pedidos}/>
         </Switch>
     </BrowserRouter>
     )
