@@ -14,6 +14,7 @@ import Lancamentos from './pages/lancamentos';
 import ProdutosTodos from './pages/produtos-todos';
 import LoginAdm from './pages/login-adm';
 import Pedidos from './pages/pedidos';
+import registrarUser from './pages/registrar-user';
 
 export default function Final() {
     return (
@@ -33,6 +34,7 @@ export default function Final() {
             <Route path='/produtos-todos' component={ProdutosTodos}/>
             <Route path='/login-adm' component={LoginAdm}/>
             <Route path='/pedidos' component={Pedidos}/>
+            <Route path='/registrar-user' component={registrarUser}/>
         </Switch>
     </BrowserRouter>
     )
