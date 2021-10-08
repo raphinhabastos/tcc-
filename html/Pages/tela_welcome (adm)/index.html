@@ -16,19 +16,50 @@
   </head>
   <body>
 
-    <div class="container"> 
-      <div class="logo"> <img src="../../public/images/logo.png" alt="" width="100px" height="50px" /> </div>
-      <div class="produtos"> <img src="../../public/images/logo.png" alt="" width="100px" height="50px" />PRODUTOS</div>
-      <div class="clientes"> <img src="../../public/images/logo.png" alt="" width="100px" height="50px" />CLIENTES</div>
-      <div class="pedidos"> <img src="../../public/images/logo.png" alt="" width="100px" height="50px" />PEDIDOS</div>
-      <div class="relatorio"> <img src="../../public/images/logo.png" alt="" width="100px" height="50px" />RELATORIO</div>
-
-
+    <div class="logo"> <img src="../../public/images/logo.png"/></div>
+    
+    <div class="container-images"> 
+      <div class="produtos"> <button> <img src="../../public/images/produtos.png"/>PRODUTOS</button> </div>
+      <div class="clientes"> <button> <img src="../../public/images/clientes.png"/>CLIENTES</button> </div>
+      <div class="pedidos"> <button> <img src="../../public/images/pedidos.png"/>PEDIDOS</button> </div>
+      <div class="relatorio"> <button> <img src="../../public/images/relatorio.png"/>RELATÓRIO</button> </div>
     </div>
     
-    <div class="welcome"> <h1>BEM-VINDO USUÁRIO</h1> </div>
+    <div class="container-text">
+      <div class="welcome"> <h1>BEM-VINDO USUÁRIO</h1> </div>
       <div class="resumo">ESTE É UM RESUMO DE DESTINY.</div>
+    </div>
 
+    <div class="container-graficos">
+      <div class="vendas">VENDAS
+        
+        <select id="classificar">
+          <option value="class1">POR SEMANA</option>
+          <option value="class1">Mais vendidos</option>
+          <option value="class2">Menos vendidos</option>
+          <option value="class3">Ganhos</option>
+        </select>
+     
+      </div>
+      <div class="produtos-populares">PRODUTOS POPULARES
+        
+        <select id="classificar">
+          <option value="class1">CATEGORIA</option>
+          <option value="class1">Camisas</option>
+          <option value="class2">Blusas</option>
+          <option value="class3">Tênis</option>
+          <option value="class4">Chuteiras</option>
+          <option value="class5">Calças</option>
+        </select>
+      </div>
+
+    </div>
+
+    <div class="container-dashboard"
+      <div class="receitas"> <button> <img src="../../public/images/receitas.png"/>RECEITAS</button> </div>
+      <div class="new-client"> <button> <img src="../../public/images/novos_clientes.png"/>NOVOS CLIENTES</button> </div>
+      <div class="new-product"> <button> <img src="../../public/images/novos_produtos.png"/>NOVOS PRODUTOS</button> </div>
+      <div class="pedidos-pendentes"> <button> <img src="../../public/images/pedidos_pendentes.png"/>PEDIDOS PENDENTES</button> </div>
 
 </body>
 </html>
