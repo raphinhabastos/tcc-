@@ -1,6 +1,6 @@
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
 
-import Index from './pages/index/index'
+import Index from './pages/home/index'
 import Login from './pages/login'
 import SobreNos from './pages/sobre nos'
 import AddEndereco from './pages/endereço/adicionar-endereco';
@@ -15,6 +15,7 @@ import ProdutosTodos from './pages/produtos-todos';
 import LoginAdm from './pages/login-adm';
 import Pedidos from './pages/pedidos';
 import registrarUser from './pages/registrar-user';
+import PedidosAdmin from './pages/pedidos-adm';
 
 export default function Final() {
     return (
@@ -32,9 +33,10 @@ export default function Final() {
             <Route path='/produtos-masculinos' component={Masculinos}/>
             <Route path='/lancamentos' component={Lancamentos}/>
             <Route path='/produtos-todos' component={ProdutosTodos}/>
-            <Route path='/login-adm' component={LoginAdm}/>
+            <Route path='/admin/login' component={LoginAdm}/>
             <Route path='/pedidos' component={Pedidos}/>
             <Route path='/registrar-user' component={registrarUser}/>
+            <Route path='/admin/pedidos' component={PedidosAdmin}/>
         </Switch>
     </BrowserRouter>
     )
