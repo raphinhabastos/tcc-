@@ -1,13 +1,32 @@
 .logo {
-padding-top: 0.5em;
-margin-left: 4%;
+    padding-top: 0.5em;
+    margin-left: 4%;
 }
 
 .container-images {
-padding-top: 2em;
-margin-left: 2%;
+    margin-left: 2%;
+    font: 1.2em "Oswald";
+    border: solid black 1px;
+    border-radius: 18px;
+    padding: 1em 2em;
+    width: 15%;   
 }
 
 .container-images button{
-font: 1.2em "Oswald"; 
+    font: 1em "Oswald"; 
+    font-weight: bold;
+    border: solid black 1px;
+    background-color: white;
+    border-radius: 18px;
+    padding: 1em 2em;
+    margin-top: 0 15px;
+}
+
+.container-secundario {
+    display: flex;
+    margin-left: 57%;
+}
+
+.resumo {
+    font-weight: 200;
 }
