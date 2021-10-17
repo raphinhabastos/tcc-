@@ -99,8 +99,8 @@ export default function Index() {
                 <div class="email">contato@destiny.com</div>
                 <div class="email">0800-773-3475</div>
                 <div class="redes">
-                <div class="face"><img src="../../public/images/face.svg" alt="" /></div>
-                <div class="face"><img src="../../public/images/insta.svg" alt="" /></div>
+                <div class="face"><img src="/assets/images/face.svg" alt="" /></div>
+                <div class="face"><img src="/assets/images/insta.svg" alt="" /></div>
                 </div>
             </div>
             </div>
