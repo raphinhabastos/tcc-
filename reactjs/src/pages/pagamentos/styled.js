@@ -21,6 +21,7 @@ hr {
 .titulo-pagina {
     font: 2.5em "Bebas Neue";
     padding: 0em 1em;
+    text-align: center;
 }
 
 .preco {
@@ -38,6 +39,8 @@ hr {
 .box-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-pagamento {

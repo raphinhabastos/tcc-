@@ -65,14 +65,6 @@ export default function AddEndereco () {
 
                             
                         </div>
-                    
-                            <div className="a">
-
-
-                                <div className="botao">
-                                    <Button>CONTINUAR</Button>
-                                </div>
-                            </div>
                     </div>
 
 
@@ -115,16 +107,20 @@ export default function AddEndereco () {
                             <div class="total">
                                 VOCÊ PAGARÁ: <span class="total2">R$194,98</span>
                             </div>
-
-                        </div>
-                        <div className="botao">
+                            <div className="botao">
                             <Button>ADICIONAR CUPOM</Button>
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
-                    </div>
-                
                 </div>
+            </div>
+            <div className="a">
+                <div className="botao">
+                    <Button>CONTINUAR</Button>
+                </div>
+            </div>
         </Container>
     )
 }

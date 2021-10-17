@@ -10,10 +10,6 @@ const CabecalhoDiv = styled.div`
 
   .logo:hover {
     cursor: pointer;
-    transition: 0.4s;
-    border-radius: 30px;
-    color: #7289da;
-    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
   }
 
   .menu {

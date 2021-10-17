@@ -17,11 +17,14 @@ hr {
 .titulo-pagina {
   font: 2.5em "Bebas Neue";
   padding: 0em 1.5em;
+  text-align: center;
 }
 
 .boxes {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .box-info{
@@ -80,10 +83,10 @@ input {
   display: flex;
   flex-direction: column;
 
-  width: 53em;
+  width: 100vw;
 
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 
   padding-top: 0.5em;
 }
@@ -156,7 +159,6 @@ input {
 .botao button {
   display: flex;
   flex-direction: column;
-  align-content: flex-end;
 }
 
 .botao button {
@@ -164,7 +166,7 @@ input {
   font: 1.2em "Bebas Neue";
 
   text-align: center;
-  padding: 0em 2.5em;
+  padding: .3em 3em;
   
   border-radius: 5px;
   border: none;
@@ -172,8 +174,6 @@ input {
   cursor: pointer;
   transition-duration: 0.5s;
   text-decoration: none;
-
-  align-content: flex-end;
 }
 
 .botao button:hover {
