@@ -16,6 +16,7 @@ import LoginAdm from './pages/login-adm';
 import Pedidos from './pages/pedidos';
 import registrarUser from './pages/registrar-user';
 import PedidosAdmin from './pages/pedidos-adm';
+import CadastrarProduto from './pages/cadastrar-produto'
 
 export default function Final() {
     return (
@@ -37,6 +38,7 @@ export default function Final() {
             <Route path='/pedidos' component={Pedidos}/>
             <Route path='/registrar-user' component={registrarUser}/>
             <Route path='/admin/pedidos' component={PedidosAdmin}/>
+            <Route path='/admin/cadastrar' component={CadastrarProduto}/>
         </Switch>
     </BrowserRouter>
     )
