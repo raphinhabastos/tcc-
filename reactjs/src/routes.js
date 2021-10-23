@@ -17,6 +17,8 @@ import Pedidos from './pages/pedidos';
 import registrarUser from './pages/registrar-user';
 import PedidosAdmin from './pages/pedidos-adm';
 import CadastrarProduto from './pages/cadastrar-produto'
+import MeusEndereços from './pages/meus-endereços'
+import Clientes from './pages/clientes_Adm'
 
 export default function Final() {
     return (
@@ -39,6 +41,8 @@ export default function Final() {
             <Route path='/registrar-user' component={registrarUser}/>
             <Route path='/admin/pedidos' component={PedidosAdmin}/>
             <Route path='/admin/cadastrar' component={CadastrarProduto}/>
+            <Route path='/meus-endereços' component={MeusEndereços}/>
+            <Route path='/adim/clientes' component={Clientes}/>
         </Switch>
     </BrowserRouter>
     )
